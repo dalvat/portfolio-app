@@ -1,0 +1,64 @@
+.navbar {
+background-color: white;
+display: flex;
+flex-direction: column;
+justify-content: center;
+min-height: 12.5vh;
+margin-bottom: 0;
+}
+
+.navbarMain {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 3vh;
+}
+
+.navbarBrand > h1 {
+  margin-top: 1vh;
+  margin-bottom: 0;
+  font-family: monospace;
+  text-align: center;
+}
+
+.navbarBrand > p {
+  margin-top: 0;
+  margin-bottom: 1vh;
+  font-family: monospace;
+  text-align: center;
+}
+
+.navbarBrand {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.toggleMenu {
+  padding: 0.5rem;
+}
+
+.navLinks {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  list-style-type: none;
+  font-family: monospace;
+  font-size: 2.5vh;
+  margin: auto;
+  color: black;
+  padding-inline-start: 0px;
+  border-radius: 1vh;
+  z-index: 100;
+}
+
+.toggleBtn {
+  background-color: white;
+  border: none;
+  font-size: 5vh;
+}

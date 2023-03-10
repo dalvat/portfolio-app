@@ -1,0 +1,8 @@
+.about {
+  width: 100%;
+  margin: auto;
+}
+
+.about > h1 {
+  padding-top: 5vh;
+}

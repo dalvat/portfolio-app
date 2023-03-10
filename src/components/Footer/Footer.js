@@ -2,7 +2,7 @@ import React from "react";
 import "./Footer.css";
 
 function Footer() {
-  return <footer>Footer text</footer>;
+  return <footer className="footer">© David Salvat 2023</footer>;
 };
 
 export default Footer;

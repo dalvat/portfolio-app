@@ -1,0 +1,9 @@
+.link {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+
+.link-li {
+  padding: 1rem;
+}
