@@ -1,0 +1,61 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  color: white;
+  font-size: 2vh;
+  height: 15vh;
+  margin-bottom: 0;
+}
+
+.socials {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  margin-top: 2.5vh;
+}
+
+.phone {
+  display: block;
+  background-image: url(./assets/images/phone-call.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 35px;
+  width: 35px;
+  margin-right: 25px;
+}
+
+.email {
+  display: block;
+  background-image: url(./assets/images/email.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 40px;
+  width: 40px;
+  margin-right: 25px;
+}
+
+.github {
+  display: block;
+  background-image: url(./assets/images/github.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 40px;
+  width: 40px;
+  margin-right: 25px;
+}
+
+.linkedin {
+  display: block;
+  background-image: url(./assets/images/linkedin.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 40px;
+  width: 40px;
+}

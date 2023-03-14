@@ -1,6 +1,7 @@
 import React, { useState } from "react";
-import NavLinks from "../NavLink/NavLink";
-import "./Navbar.css";
+import NavLinks from "../NavLink";
+import TypedText from "../TypedText"
+import "./style.css";
 
 function Navbar() {
 
@@ -23,7 +24,7 @@ function Navbar() {
       <div className="navbarMain">
         <div className="navbarBrand">
           <h1>David Salvat</h1>
-          <p>/ Web Developer</p>
+          <TypedText />
         </div>
         <button className="toggleBtn" onClick={toggleMenu}>{symbol}</button>
       </div>
