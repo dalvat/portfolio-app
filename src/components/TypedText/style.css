@@ -1,0 +1,52 @@
+.rolesDiv {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  padding-right: 50px;
+}
+
+.rolesDiv .typedTEffect {
+height: 4vh;
+line-height: 4vh;
+overflow: hidden;
+}
+
+.typedTEffect li {
+  position: relative;
+  top: 0;
+  list-style: none;
+  color: crimson;
+  animation: slide 6s steps(3) infinite;
+}
+
+@keyframes slide {
+  100%{
+    top: -12vh;
+
+  }
+}
+
+.typedTEffect li span {
+  position: relative;
+}
+
+.typedTEffect li span::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: white;
+  border-left: 2px solid black;
+  animation: typing 2s steps(10) infinite;
+}
+
+@keyframes typing {
+  100%{
+    left: 100%;
+    margin: 0 -4vw 0 4vw
+  }
+}
