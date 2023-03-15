@@ -1,0 +1,76 @@
+.skillDetail{
+  width: 100%;
+  display: flex;  
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.skillBar{
+  position: relative;
+  border: 2px solid crimson;
+  border-radius: 20px;
+
+}
+.skillBar div{
+  position: relative;
+  width: 0;
+  height: 9px;
+  border-radius: 10px;
+  background-color: crimson;
+}
+
+.skillDetail:not(:last-child){
+  margin-top: 30px;
+}
+
+#html-bar{
+  animation: html-fill 2s forwards;
+}
+@keyframes html-fill{
+  100%{
+      width: 95%;
+  }
+}
+
+#css-bar{
+  animation: css-fill 2s forwards;
+}
+@keyframes css-fill{
+  100%{
+      width: 95%;
+  }
+}
+
+#js-bar{
+  animation: js-fill 2s forwards;
+}
+@keyframes js-fill{
+  100%{
+      width: 90%;
+  }
+}
+#bootstrap-bar{
+  animation: bootstrap-fill 2s forwards;
+}
+@keyframes bootstrap-fill{
+  100%{
+      width: 75%;
+  }
+}
+
+#react-bar{
+  animation: react-fill 2s forwards;
+}
+@keyframes react-fill{
+  100%{
+      width: 60%;
+  }
+}
+#node-bar{
+  animation: node-fill 2s forwards;
+}
+@keyframes node-fill{
+  100%{
+      width: 60%;
+  }
+}

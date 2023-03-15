@@ -41,6 +41,54 @@
 
 .heroText > .link-li:hover {
   border: 1px solid white;
-
+  color: crimson;
   box-shadow: inset 0 0 0 rgb(255, 255, 255), 0 0 2vh rgba(255, 255, 255, 0.25);
+}
+
+.portfolioLink {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.portfolioLink > .link-li {
+  border: 1px solid black;
+  color: white;
+  background-color: black;
+  border-radius: 1vh;
+  width: 15vw;
+  margin: 1vh;
+  font-weight: 500;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  list-style: none;
+}
+
+.portfolioLink > .link-li:hover {
+  color: crimson;
+  box-shadow: inset 0 0 0 rgb(0, 0, 0), 0 0 2vh rgba(0, 0, 0, 0.5);
+}
+
+.servicesLink {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.servicesLink > .link-li {
+  border: 1px solid black;
+  color: white;
+  background-color: black;
+  border-radius: 1vh;
+  width: 15vw;
+  margin: 1vh;
+  font-weight: 500;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  list-style: none;
+}
+
+.servicesLink > .link-li:hover {
+  color: crimson;
+  box-shadow: inset 0 0 0 rgb(0, 0, 0), 0 0 2vh rgba(0, 0, 0, 0.5);
 }

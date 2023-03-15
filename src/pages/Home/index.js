@@ -14,6 +14,12 @@ function Home() {
           </div>
       </div>
       <About />
+      <div className="portfolioLink">
+        <NavLinks to='/portfolio' name='See my portfolio' />
+      </div>
+      <div className="servicesLink">
+        <NavLinks to='/services' name='Services Offered' />
+      </div>
     </>
   )
 }
