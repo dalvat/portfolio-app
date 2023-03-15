@@ -9,12 +9,14 @@ import Services from './pages/Services';
 import Navbar from './components/Navbar'
 import PageWrapper from './components/PageWrapper';
 import Footer from './components/Footer';
+import ScrollToTop from './components/ScrollToTop'
 
 function App() {
   return (
     <Router>
       <div>
         <Navbar />
+        <ScrollToTop />
         <PageWrapper>
           <Routes>
             <Route path="/" element={<Home />} />
