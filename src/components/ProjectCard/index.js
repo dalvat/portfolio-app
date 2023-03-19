@@ -3,7 +3,7 @@ import React from "react";
 function ProjectCard(props) {
   return (
     <>
-      <a href={props.href} className={props.className}>
+      <a href={props.href} className={props.className} target="_blank">
         <div>
           <h3>{props.title}
             <p>{props.category}</p>
