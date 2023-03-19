@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/web-dev-portfolio-app/static/css/main.3fba0db1.css",
+    "main.js": "/web-dev-portfolio-app/static/js/main.72f9bf7c.js",
+    "static/media/B&W wide.png": "/web-dev-portfolio-app/static/media/B&W wide.bf9f041a70a61643f8d9.png",
+    "static/media/html.png": "/web-dev-portfolio-app/static/media/html.d653cfb44ab817bd14b0.png",
+    "static/media/github.png": "/web-dev-portfolio-app/static/media/github.63d27f5f2501776e9419.png",
+    "static/media/linkedin.png": "/web-dev-portfolio-app/static/media/linkedin.77d200789f4edfb4c944.png",
+    "index.html": "/web-dev-portfolio-app/index.html",
+    "main.3fba0db1.css.map": "/web-dev-portfolio-app/static/css/main.3fba0db1.css.map",
+    "main.72f9bf7c.js.map": "/web-dev-portfolio-app/static/js/main.72f9bf7c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3fba0db1.css",
+    "static/js/main.72f9bf7c.js"
+  ]
+}
