@@ -13,12 +13,11 @@ function Home() {
             <NavLinks to='/about' name='About Me' />
           </div>
       </div>
-      <About />
       <div className="portfolioLink">
         <NavLinks to='/portfolio' name='See My Portfolio' />
       </div>
       <div className="servicesLink">
-        <NavLinks to='/services' name='Services Offered' />
+        <NavLinks to='/services' name='Services I Offer' />
       </div>
     </>
   )

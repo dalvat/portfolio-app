@@ -18,8 +18,14 @@ margin-bottom: 0;
 
 .navbarBrand > h1 {
   margin-bottom: 0;
-  font-family: monospace;
+  margin-top: 2vh;
+}
+
+.navbarBrand > h1 > li {
+  padding-bottom: 0;
   text-align: center;
+  text-decoration: none;
+  list-style: none;
 }
 
 .navbarBrand > div {
@@ -78,7 +84,7 @@ margin-bottom: 0;
   }
   
   .navbarBrand > h1 {
-    padding-bottom: 0;
+    padding-bottom: 2vh;
     margin: auto;
     font-family: monospace;
     font-size: 3.5vh;
@@ -118,6 +124,9 @@ margin-bottom: 0;
     padding: 1vw;
   }
 
+  .rolesDiv .typedEffect {
+    padding-left: 0.5vw;
+    }
 }
 
 @media only screen and (min-width: 900px) and (max-width: 1050px){

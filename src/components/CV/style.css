@@ -1,0 +1,24 @@
+#cv-div {
+  margin-top: 2vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.CV {
+  border: 1px solid black;
+  color: white;
+  background-color: black;
+  border-radius: 1vh;
+  width: 15vw;
+  margin: auto;
+  font-weight: 500;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  list-style: none;
+}
+
+.CV:hover {
+  color: crimson;
+  box-shadow: inset 0 0 0 rgb(0, 0, 0), 0 0 2vh rgba(0, 0, 0, 0.5);
+}
