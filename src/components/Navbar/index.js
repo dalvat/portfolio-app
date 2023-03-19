@@ -31,7 +31,7 @@ function Navbar() {
         {open && (
           <div className="toggleMenu">
             <ul className="navLinks">
-              <NavLinks onClick={toggleMenu} to='/' name='Home' />
+              <NavLinks onClick={toggleMenu} to='/web-dev-portfolio-app' name='Home' />
               <NavLinks onClick={toggleMenu} to='/about' name='About' />
               <NavLinks onClick={toggleMenu} to='/contact' name='Contact' />
               <NavLinks onClick={toggleMenu} to='/portfolio' name='Portfolio' />
@@ -39,6 +39,15 @@ function Navbar() {
             </ul>
           </div>
           )}
+          <div className="largeScreenMenu">
+            <ul className="navLinks">
+              <NavLinks onClick={toggleMenu} to='/web-dev-portfolio-app' name='Home' />
+              <NavLinks onClick={toggleMenu} to='/about' name='About' />
+              <NavLinks onClick={toggleMenu} to='/contact' name='Contact' />
+              <NavLinks onClick={toggleMenu} to='/portfolio' name='Portfolio' />
+              <NavLinks onClick={toggleMenu} to='/services' name='Services' />
+            </ul>
+          </div>
     </nav>
   )
 };

@@ -7,7 +7,7 @@ function TypedText() {
     return (
       <div className="rolesDiv">
         <div className="container">
-          <ul className="typedTEffect">
+          <ul className="typedEffect">
             <li>
               <span>Developer</span>
             </li>

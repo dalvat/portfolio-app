@@ -19,7 +19,7 @@ function App() {
         <ScrollToTop />
         <PageWrapper>
           <Routes>
-            <Route path="/" element={<Home />} />
+            <Route path="/web-dev-portfolio-app" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/portfolio" element={<Portfolio />} />

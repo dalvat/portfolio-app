@@ -1,10 +1,12 @@
 
 .cardSection {
+  margin: auto;
   display: flex;
   flex-direction: row;
   justify-content: center;
   flex-wrap: wrap;
   padding: 1.5rem;
+  max-width: 900px;
 }
 
 .flexCard {
@@ -47,36 +49,48 @@
 
 .project1 {
   display: flex;
-  background-image: url(./assets/images/html.png);
-  background-position: center;
+  background-image: url(./assets/images/animaletics-screenshot.png);
+  background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .project2 {
-  background-image: url(./assets/images/html.png);
-  background-position: center;
+  background-image: url(./assets/images/example-team-profile.png);
+  background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .project3 {
-  background-image: url(./assets/images/html.png);
-  background-position: center;
+  background-image: url(./assets/images/readme-app.png);
+  background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .project4 {
-  background-image: url(./assets/images/html.png);
-  background-position: center;
+  background-image: url(./assets/images/daily-planner.png);
+  background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .project5 {
-  background-image: url(./assets/images/html.png);
+  background-image: url(./assets/images/coding-quiz.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+@media only screen and (min-width: 900px) {
+  
+  .flexCard:first-child {
+    flex-basis: 97%;
+  }
+
+  .flexCard {
+    flex-basis: 47%;
+  }
+
 }

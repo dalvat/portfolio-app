@@ -60,3 +60,70 @@ margin-bottom: 0;
   border: none;
   font-size: 5vh;
 }
+
+.largeScreenMenu {
+  display: none;
+}
+
+@media only screen and (min-width: 900px) {
+  .navbar {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .navbarMain {
+    flex-direction: row;
+    padding-left: 40px;
+    justify-content: center;
+  }
+  
+  .navbarBrand > h1 {
+    padding-bottom: 0;
+    margin: auto;
+    font-family: monospace;
+    font-size: 3.5vh;
+    text-align: center;
+  }
+  
+  .navbarBrand > div {
+    margin: auto;
+    font-family: monospace;
+    font-size: 2vh;
+  }
+  
+  .navbarBrand {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .toggleBtn {
+    display: none;
+  }
+
+  .toggleMenu {
+    display: none;
+  }
+
+  .largeScreenMenu {
+    display: flex;
+    padding-right: 25px;
+  }
+
+  .navLinks {
+    flex-direction: row;
+    font-size: 2vh;
+  }
+  
+  .navLinks > li {
+    padding: 1vw;
+  }
+
+}
+
+@media only screen and (min-width: 900px) and (max-width: 1050px){
+  
+  .navLinks > li {
+    font-size: 1.5vh;
+  }
+  
+}
