@@ -23,7 +23,7 @@ function Navbar() {
     <nav className="navbar">
       <div className="navbarMain">
         <div className="navbarBrand">
-          <h1>David Salvat</h1>
+          <h1><NavLinks to='/web-dev-portfolio-app' name='David Salvat' /></h1>
           <TypedText />
         </div>
         <button className="toggleBtn" onClick={toggleMenu}>{symbol}</button>
