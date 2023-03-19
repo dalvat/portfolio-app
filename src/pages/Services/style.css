@@ -1,6 +1,7 @@
 .services {
   padding-top: 3vh;
-  margin: 2vh;
+  margin: auto;
+  max-width: 900px;
 }
 
 .services > h1 {
@@ -12,9 +13,9 @@
   padding: 3vh 3vh 5vh;
 } 
 .services .container *{
-    font-family: “Poppins”,sans-serif;
-    color: black;
-    font-weight: 500;
+  font-family: monospace;
+  color: black;
+  font-weight: 500;
 }
 
 .services > .container > h2{

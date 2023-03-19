@@ -1,0 +1,71 @@
+.contact {
+  margin: auto;
+  max-width: 900px;
+  display: flex;
+  flex-direction: column;
+  justify-content: centre;
+}
+
+.contact > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.contactLinks > div {
+  margin-top: 2vh;
+}
+
+.contact .phone {
+  margin: auto;
+  display: block;
+  background-image: url(./assets/images/phone-call-dark.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 35px;
+  width: 35px;
+}
+
+.contact .email {
+  margin: auto;
+  display: block;
+  background-image: url(./assets/images/email-dark.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 40px;
+  width: 40px;
+}
+
+.contact .github {
+  margin: auto;
+  display: block;
+  background-image: url(./assets/images/github-dark.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 40px;
+  width: 40px;
+}
+
+.contact .linkedin {
+  margin: auto;
+  display: block;
+  background-image: url(./assets/images/linkedin-dark.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 40px;
+  width: 40px;
+}
+
+@media only screen and (min-width: 900px) {
+  .contact > div {
+    margin-top: 5vh;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+}

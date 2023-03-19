@@ -15,7 +15,7 @@ function Home() {
       </div>
       <About />
       <div className="portfolioLink">
-        <NavLinks to='/portfolio' name='See my portfolio' />
+        <NavLinks to='/portfolio' name='See My Portfolio' />
       </div>
       <div className="servicesLink">
         <NavLinks to='/services' name='Services Offered' />
