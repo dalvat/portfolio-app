@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/web-dev-portfolio-app/static/css/main.0d6b616f.css",
-    "main.js": "/web-dev-portfolio-app/static/js/main.698337ac.js",
+    "main.js": "/web-dev-portfolio-app/static/js/main.2fb134d6.js",
     "static/media/animaletics-screenshot.png": "/web-dev-portfolio-app/static/media/animaletics-screenshot.61b94c93231f789a79d0.png",
     "static/media/readme-app.png": "/web-dev-portfolio-app/static/media/readme-app.db1e8ff58dbdf9aa6c46.png",
     "static/media/B&W wide.png": "/web-dev-portfolio-app/static/media/B&W wide.bf9f041a70a61643f8d9.png",
@@ -12,10 +12,10 @@
     "static/media/linkedin.png": "/web-dev-portfolio-app/static/media/linkedin.77d200789f4edfb4c944.png",
     "index.html": "/web-dev-portfolio-app/index.html",
     "main.0d6b616f.css.map": "/web-dev-portfolio-app/static/css/main.0d6b616f.css.map",
-    "main.698337ac.js.map": "/web-dev-portfolio-app/static/js/main.698337ac.js.map"
+    "main.2fb134d6.js.map": "/web-dev-portfolio-app/static/js/main.2fb134d6.js.map"
   },
   "entrypoints": [
     "static/css/main.0d6b616f.css",
-    "static/js/main.698337ac.js"
+    "static/js/main.2fb134d6.js"
   ]
 }
