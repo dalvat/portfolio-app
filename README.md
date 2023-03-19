@@ -6,9 +6,7 @@
 
 This is my Web Developer Portfolio App. I contains information about me and the projects I've been working on recently, as well as details of how to contact me.
 
-The app is deployed live and can be accessed by click on the following link:
-
-[Live Page](https://dalvat.github.io/web-dev-portfolio-app/)
+The app is deployed live and can be accessed by clicking [here](https://dalvat.github.io/web-dev-portfolio-app/).
 
 ## Table of Contents
 
