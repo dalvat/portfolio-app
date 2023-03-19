@@ -87,6 +87,7 @@
   
   .flexCard:first-child {
     flex-basis: 97%;
+    min-height: 500px;
   }
 
   .flexCard {
